@@ -1,0 +1,24 @@
+# קבצים זמניים
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# קבצי לוג ושגיאות
+*.log
+
+# נתונים אישיים או רגישים
+.env
+*.sqlite3
+
+# קבצים שהמשתמש מעלה (אם יש העלאת תמונות או מסמכים)
+uploads/
+static/uploads/
+
+# קבצי IDE (כגון VSCode/PyCharm)
+.vscode/
+.idea/
+*.iml
+node_modules/
+.env
+*.log
